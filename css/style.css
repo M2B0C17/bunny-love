@@ -1,0 +1,28 @@
+
+font-family: 'Baloo Paaji', cursive;
+
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: whitesmoke;
+  font-family: 'Prompt', sans-serif;
+}
+
+.menu{
+  display: none;
+}
+
+header{
+  width: 100%;
+}
+
+header nav{
+  background: red;
+  z-index: 1000; /*posecionar arriba de los otros elementos*/
+}
