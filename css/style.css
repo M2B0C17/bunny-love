@@ -11,22 +11,29 @@ font-family: 'Baloo Paaji', cursive;
 }
 
 body{
-  background: whitesmoke;
+  background: #F2EDD0;
   font-family: 'Prompt', sans-serif;
 }
 
 /*Menú*/
 
+nav{
+  padding: 0;
+}
+
 .menu{
   display: none;
+  text-decoration: none;
+  font-size: 25px;
 }
 
 header{
   width: 100%;
+
 }
 
 header nav{
-  background: red;
+  background: #E08748;
   z-index: 1000; /*posecionar arriba de los otros elementos*/
   width: 100%;
 }
@@ -34,8 +41,10 @@ header nav{
 ul li a{
   list-style: none;
   text-decoration: none;
-  color: white;
+  color: #F2EDD0;
   display: block;
+  padding: 20px;
+  text-transform: uppercase;
 }
 
 li{
@@ -45,16 +54,26 @@ li{
 ul{
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+
 }
 
 #color1{
   list-style: none;
   text-decoration: none;
-  color: white;
+  color: #F2EDD0;
+  display: flex;
+  align-items: center;
+}
+
+#color2{
+  list-style: none;
+  text-decoration: none;
+  color: #6A7329;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
 }
 
 ul li a:hover{
-  background: green;
-  color: orange;
+  background: #D76805;
 }
