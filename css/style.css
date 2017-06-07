@@ -1,5 +1,6 @@
-
+/*
 font-family: 'Baloo Paaji', cursive;
+*/
 
 *{
   padding: 0;
@@ -14,6 +15,8 @@ body{
   font-family: 'Prompt', sans-serif;
 }
 
+/*Menú*/
+
 .menu{
   display: none;
 }
@@ -25,4 +28,33 @@ header{
 header nav{
   background: red;
   z-index: 1000; /*posecionar arriba de los otros elementos*/
+  width: 100%;
+}
+
+ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+li{
+  display: inline-block;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+#color1{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover{
+  background: green;
+  color: orange;
 }
