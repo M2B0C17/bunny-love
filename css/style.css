@@ -90,4 +90,13 @@ ul li a:hover{
   position: absolute;
   font-size: 100px; /*40px*/
   font-family: 'Baloo Paaji', cursive;
+  color: #D76805;
+}
+
+/*texto bajo titulo*/
+.bajotit{
+  position: absolute;
+  font-size: 25px;
+  color: #A4350C;
+  margin: 10% auto;
 }
