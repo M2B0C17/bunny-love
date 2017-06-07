@@ -1,5 +1,5 @@
 /*responsive*/
-@media (max-width: 700px){
+@media (min-width: 200px) and (max-width: 624px){
   body{
     padding-top: 112px;
     background: whitesmoke;
@@ -22,7 +22,7 @@
   }
 
   .tit{
-    font-size: 50%; /*40px*/
+    font-size: 50%;
   }
 
   .bajotit{
